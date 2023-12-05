@@ -9,8 +9,8 @@ public class ActorTest {
     @Test //adnotacja
     void shouldCalculateCorrectSalary()
     {
-        Actor tomHanks = new Actor("Tom","Hanks");
-        int actual = tomHanks.calculateSalary(3, 3);
+        Actor tomCruise = new Actor("Tom","Hanks");
+        int actual = tomCruise.calculateSalary(3, 3);
         int expected = 9;
 
         //serce testu
